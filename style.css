@@ -12,6 +12,7 @@ header {
   flex-direction: row;
   margin: 0 auto;
   max-width: 1200px;
+
 }
 
 .hero-section {
@@ -93,6 +94,10 @@ header {
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
 }
 
+.aboutme {
+  padding: 30px;
+}
+
 main .aboutme h1 {
   text-align: center;
   font-size: 50px;
@@ -117,16 +122,16 @@ main .skills h1 {
 .boxes {
   display: flex;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  width: 1350px;
   gap: 25px;
+  padding: 20px;
 }
 .box1,
 .box2,
 .box3 {
-  width: 350px;
+  width: 500px;
   min-height: 120px;
   background-color: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -351,6 +356,28 @@ main .skills h1 {
 }
 
 @media (max-width: 768px) {
+
+  .hero-section {
+    margin-left: 25px;
+    min-height: 60vh;
+}
+
+  .p1 {
+    font-size: 80px;
+  }
+
+  .hideit {
+    display: none;
+  }
+
+  .p3 {
+    font-size: 70px;
+  }
+
+  .p4 {
+    font-size: xx-large;
+  }
+
   .project-card {
     width: 100%;
   }
