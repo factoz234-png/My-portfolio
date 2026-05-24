@@ -35,7 +35,6 @@
         </div>
       </nav>
 
-      <img class="myimg" src="code.svg" alt="" />
     </header>
 
     <main>
@@ -58,14 +57,72 @@
         <div>
           <h1>Skills</h1>
         </div>
-        <div>
-          <ul>
-            <li>Frontend Web Development (HTML5, CSS3, JavaScript)</li>
-            <li>Version Control & Deployment (Git, GitHub, Netlify)</li>
-            <li>Responsive UI/UX Design & Asset Creation</li>
-          </ul>
+        <div class="boxes">
+          <div class="box1"><p>Frontend Web Development (Html, Css, Javascript)</p></div>
+          <div class="box2"><p>Version Control & Deployment (Git, GitHub, Netlify)</p></div>
+          <div class="box3"><p>Responsive UI/UX Design & Asset Creation</p></div>
         </div>
       </div>
+
+      <section class="projects-section">
+  <h2 class="section-title">Selected Projects</h2>
+  
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-info">
+        <h3>Landing Page & Portfolio</h3>
+        <p class="project-tech">HTML5 | CSS3 | JavaScript | Netlify</p>
+        <p class="project-desc">A fully responsive, modern single-page portfolio designed from scratch with custom semantic layouts and dynamic navigation elements.</p>
+        <div class="project-links">
+          <a href="#" class="proj-btn outline">View Live</a>
+          <a href="#" class="proj-btn link">GitHub Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-info">
+        <h3>E-Commerce Component</h3>
+        <p class="project-tech">HTML5 | CSS3 | Git</p>
+        <p class="project-desc">A pixel-perfect product showcase dashboard featuring custom Flexbox item positioning grid arrays and interactive user interface layouts.</p>
+        <div class="project-links">
+          <a href="#" class="proj-btn outline">View Live</a>
+          <a href="#" class="proj-btn link">GitHub Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <h2 class="section-title">Get In Touch</h2>
+  <p class="contact-subtitle">Have a project in mind or want to collaborate? Drop a message below!</p>
+  
+  <form class="contact-form" action="https://formspree.io/f/mqejllak" method="POST">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Your Name" required />
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Your Email" required />
+    </div>
+    <div class="form-group">
+      <input type="text" name="subject" placeholder="Subject (Optional)"  />
+      
+    </div>
+    <div class="form-group">
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</section>
+
+<footer class="main-footer">
+  <div class="footer-content">
+    <p>&copy; 2026 Harrison Khokher. All rights reserved.</p>
+    <p>Built with ❤️ using HTML & CSS</p>
+  </div>
+</footer>
+
     </main>
   </body>
 </html>
